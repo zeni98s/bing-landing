@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300">
+	<title>New Project</title>
+	<defs>
+		<image  width="600" height="300" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAlgAAAEsAQMAAAAl81/VAAAAAXNSR0IB2cksfwAAAANQTFRF////p8QbyAAAAGhJREFUeJztzDEBAAAMAqDZv/QKeHpCAHI7cblcLpfL5XK5XC6Xy+VyuVwul8vlcrlcLpfL5XK5XC6Xy+VyuVwul8vlcrlcLpfL5XK5XC6Xy+VyuVwul8vlcrlcLpfL5XK5XC6Xy+UqHrgEAS2L6Tk1AAAAAElFTkSuQmCC"/>
+		<image  width="600" height="49" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAlgAAAAxCAMAAAAx3CdVAAAAAXNSR0IB2cksfwAAANJQTFRF////uLbFn5yzjomncWuSZ2KMcmuTkYyptLHCYluHVEx/AAAATER6jYilk4+qaGGNg36gx8XQj4unMSdlMSdkbmiPMSdmMShkhH6efXeZLydkMShkhH+e7u3waGGLJCRbKxxjeHKWlZGqMCdiMSZiLydlaWKMraq8r6u9ZF6JMShlMShkf3mbwb7L9PP13tzjsa2+fHaYWFGAMSZlMSZkYVqGfHaYpqK3zszW6ejs+fn6Vk1/MShjMShkMShlLyZlMChjMSdkMSdjMSdjMCdiVk5/8aEwzAAAAEZ0Uk5T/+O3mHhyd6DfnCMALc3MLV73vAogpAUNxbgGCcT/oQIDse9LAgNy9/SUGiS0+f/++tmBExmD2vj+//9rXUYgBAMYNklWarQ2YUUAAAFJSURBVHic7dgxSgRBGERhKzBYEBFhAwVBjDQxM/L+RmYmGokgaKAsIoqBoO7gAaYbqot/ed8JqqcfDLS2AAOlB2AzERYsCAsWhAULwoIFYcGCsGBBWLAgLFgQFiwICxaEBQvCggVhwYKwYEFYsCAsWBAWLAgLFoQFC8KCBWHBgrBgQViwICxYEBYsCAsWhAULwoIFYcGCsGBBWLAgLFgQFiwICxaEBQvCgkXhsLSWHuH0d7yv9IZuZW9msdlR/ZPe0xM6Fb2dXX2nJwyyrVV6QpeaYe0X/ke0Wrz+pCf0KBnWUh/pCQPt6Dk9oUPFsA70lp4w1J4e0xPa1QvrSHpJbxhsqfv0hGblwjqRntIbhjuU7tIbGhUL61R6SG+IOJZu0hua1AnrfHoQvU3PiDmbzq+r9I6ZdJleMNf6q16nR0RdTGV9pmfM8wu1dxVtsC875AAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" style="display: none" href="#img1" x="0" y="0"/>
+	<use id="shape_section_divider_2 (1)" href="#img2" x="0" y="126"/>
+</svg>
