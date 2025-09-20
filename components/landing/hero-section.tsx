@@ -23,7 +23,7 @@ function HeroSection() {
       transition={{ duration: 0.5 }}
       className="relative w-full min-h-screen flex flex-col items-center justify-center py-12 md:py-24 lg:py-32 bg-[url('/bg.png')] bg-cover bg-center bg-no-repeat bg-fixed"
     >
-      {/* Background image */}
+      {/* Background overlay */}
       <div className="absolute inset-0 -z-10">
         <Image
           src="/bg.png"
@@ -33,8 +33,8 @@ function HeroSection() {
         />
       </div>
 
-      {/* Title + subtitle */}
-      <div className="container grid items-center justify-center gap-10 px-4 text-center md:px-4 lg:gap-10">
+      {/* Title & subtitle */}
+      <div className="container grid items-center justify-center gap-10 px-4 text-center">
         <div className="space-y-3 mt-10">
           <h1
             className={`${luckiestGuy.className} text-5xl md:text-6xl lg:text-7xl`}
@@ -44,95 +44,72 @@ function HeroSection() {
             <span className="text-yellow-500">N</span>
             <span className="text-green-600">G</span>
             <span className="text-green-600"> </span>
-            <span className="text-orange-500">!</span>
-            <span className="text-orange-500">!</span>
-            <span className="text-orange-500">!</span>
+            <span className="text-orange-500">!!!</span>
           </h1>
           <p
-            className={`${luckiestGuy.className} mx-auto max-w-[800px] text-black-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed`}
+            className={`${luckiestGuy.className} mx-auto max-w-[800px] text-black-400 text-base md:text-xl lg:text-2xl`}
           >
             Wholesome vibes, fun memes & community power
           </p>
         </div>
       </div>
 
-      {/* Hero character */}
+      {/* Hero character (1 elemen responsif) */}
       <img
         src="/hero-bing.png"
-        width={180}
-        height={100}
         alt="App preview"
-        className="flex mx-auto mt-10 block md:hidden"
+        className="mx-auto mt-10 md:mt-20 w-[180px] md:w-[350px]"
       />
-      <img
-  src="/hero-bing.png"
-  width={350}
-  height={150}
-  alt="App preview"
-  className="flex mx-auto mt-20 hidden lg:block"
-  />
-  {/* Bottom buttons mobile */}
-<div className="bottom-6 inset-x-0 flex justify-center gap-4 md:hidden">
-  <Link href={CONFIG.urls.dexscreener} target="_blank" rel="noopener noreferrer">
-    <Button className="p-0 bg-transparent hover:bg-transparent">
-      <img src="/logo_dex.png" width={50} height={30}>
-      </img>
-    </Button>
-  </Link>
-  <Button
-    className="p-2 bg-red-500 text-white rounded-lg shadow"
-    onClick={() => setOpen(true)}
-  >
-    Wallet
-  </Button>
-</div>
+
       {/* Bottom buttons */}
-      <div className="absolute bottom-10 left-10 hidden md:block -mt-2">
+      <div className="absolute bottom-10 left-10">
         <Link
           href={CONFIG.urls.dexscreener}
           target="_blank"
           rel="noopener noreferrer"
-          >
-        <Button className="p-0 bg-transparent hover:bg-transparent">
-          <img src="/dex.png" alt="DexScreener" width={300} height={48} />
-        </Button>
+        >
+          <Button className="p-0 bg-transparent hover:bg-transparent">
+            <img
+              src="/dex.png"
+              alt="DexScreener"
+              className="w-[120px] md:w-[300px]"
+            />
+          </Button>
         </Link>
       </div>
 
-      <div className="absolute bottom-10 right-10 hidden md:block">
-        {/* Trigger button */}
+      <div className="absolute bottom-10 right-10">
         <Button
           className="p-0 bg-transparent hover:bg-transparent"
           onClick={() => setOpen(true)}
         >
           <img
             src="/connect_wallet.png"
-            alt="ConnectWallet"
-            width={300}
-            height={68}
+            alt="Connect Wallet"
+            className="w-[100px] md:w-[300px]"
           />
         </Button>
-
-        {/* Popup modal */}
-        {open && (
-          <div className="fixed inset-0 flex items-center justify-center bg-black/50 z-50">
-            <div className="bg-white rounded-xl shadow-xl p-6 max-w-sm w-full text-center">
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                🚧 Coming Soon 🚧
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Wallet connection feature will be available soon!
-              </p>
-              <Button
-                className="bg-red-600 text-white hover:bg-red-500"
-                onClick={() => setOpen(false)}
-              >
-                Close
-              </Button>
-            </div>
-          </div>
-        )}
       </div>
+
+      {/* Popup modal */}
+      {open && (
+        <div className="fixed inset-0 flex items-center justify-center bg-black/50 z-50">
+          <div className="bg-white rounded-xl shadow-xl p-6 max-w-sm w-full text-center">
+            <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              🚧 Coming Soon 🚧
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Wallet connection feature will be available soon!
+            </p>
+            <Button
+              className="bg-red-600 text-white hover:bg-red-500"
+              onClick={() => setOpen(false)}
+            >
+              Close
+            </Button>
+          </div>
+        </div>
+      )}
     </motion.section>
   );
 }

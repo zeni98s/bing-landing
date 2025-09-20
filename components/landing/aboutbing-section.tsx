@@ -33,9 +33,7 @@ function FeaturesSection() {
             <span className="text-green-600">G</span>
           </h2>
           <p className={`${luckiestGuy.className} text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed`}>
-            BING was born from the inspiration of the beloved animated character Bing a curious little bunny full of innocence and wonder. This token carries Bing's simple yet honest spirit into the crypto world: playful, charming, and full of potential.
-The core idea is to blend childhood nostalgia with the unstoppable energy of meme coin culture. Holding BING isn't just about owning a token, it's about joining a community that believes simplicity itself can be powerful.
-With a character design that's instantly recognizable, BING has everything it takes to go viral across social media. Its message is clear: “From the playground to the blockchain, Bing is ready to moon.
+            BING takes the spirit of Bing a playful, curious bunny and brings it to crypto. More than a token, it's a community powered by nostalgia, charm, and meme energy.
           </p>
         </div>
         <div className="grid grid-cols-1 place-items-center p-0 bg-transparent hover:bg-transparent">

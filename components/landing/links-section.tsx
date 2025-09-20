@@ -73,7 +73,7 @@ function HeroSection() {
           rel="noopener noreferrer"
           >
         <Button className="p-0 bg-transparent hover:bg-transparent">
-          <img src="/dex.png" alt="DexScreener" width={300} height={48} />
+          <img src="/dex.png" alt="DexScreener" width={500} height={48} />
         </Button>
         </Link>
       </div>
