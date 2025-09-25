@@ -93,7 +93,7 @@ export default function TokenomicsSection() {
                 </button>
               </Link>
               <Link
-                href={CONFIG.urls.dexscreener}
+                href={CONFIG.urls.buy}
                 target="_blank"
                 rel="noopener noreferrer"
               >
