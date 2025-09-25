@@ -84,7 +84,7 @@ export default function TokenomicsSection() {
             {/* Buttons */}
             <div className="col-span-2 flex gap-4 justify-center mt-4">
               <Link
-                href={CONFIG.urls.trade}
+                href={CONFIG.urls.buy}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -93,7 +93,7 @@ export default function TokenomicsSection() {
                 </button>
               </Link>
               <Link
-                href={CONFIG.urls.buy}
+                href={CONFIG.urls.trade}
                 target="_blank"
                 rel="noopener noreferrer"
               >
