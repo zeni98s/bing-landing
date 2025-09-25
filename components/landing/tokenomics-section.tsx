@@ -32,22 +32,13 @@ export default function TokenomicsSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           {/* Left Side - Image */}
           <div className="flex justify-center">
-            <Link
-              href={CONFIG.urls.trade}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <video
-                src="/buybing.mp4"
+              <img
+                src="/buy.png"
+                alt="mascot bing"
                 width={400}
                 height={400}
-                autoPlay
-                loop
-                muted
-                playsInline
                 className="mx-auto rounded-full hover:scale-105 hover:shadow-[0_0_30px_6px_rgba(0,200,255,0.8)] transition-all duration-500 ease-in-out"
               />
-            </Link>
           </div>
 
           {/* Right Side - Token Info */}
