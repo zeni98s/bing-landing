@@ -37,11 +37,14 @@ export default function TokenomicsSection() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Image
-                src="/bingcoin.png"
-                alt="Token Mascot"
+              <video
+                src="/buybing.mp4"
                 width={400}
                 height={400}
+                autoPlay
+                loop
+                muted
+                playsInline
                 className="mx-auto rounded-full hover:scale-105 hover:shadow-[0_0_30px_6px_rgba(0,200,255,0.8)] transition-all duration-500 ease-in-out"
               />
             </Link>
@@ -59,7 +62,7 @@ export default function TokenomicsSection() {
 
             {/* Symbol */}
             <div className="border-2 border-black rounded-lg p-4 flex justify-between col-span-1">
-              <span className="font-bold">Symbol</span>
+              <span className="font-bold">Ticker</span>
               <span className={`${luckiestGuy.className} font-bold text-xl`}>
                 $Soon
               </span>
@@ -83,7 +86,7 @@ export default function TokenomicsSection() {
 
             {/* Contract */}
             <div className="col-span-2 border-2 border-black rounded-lg p-4 text-sm">
-              <p className="font-bold">Contract:</p>
+              <p className="font-bold">Contract Address:</p>
               <p className="break-all text-gray-700">Coming Soon</p>
             </div>
 

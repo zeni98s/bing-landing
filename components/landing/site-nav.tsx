@@ -13,10 +13,9 @@ const luckiestGuy = Luckiest_Guy({ weight: "400", subsets: ["latin"] });
 
 export default function SiteNav() {
 return (
-<header className="absolute top-0 left-0 w-full z-50 bg-cover bg-center"
-        style={{ backgroundImage: "url('/bg.png')" }}
+<header className="absolute top-0 left-0 w-full z-50 bg-center bg-no-repeat bg-center"
 >
-<div className="max-w-7xl mx-auto flex items-center justify-between px-4 md:px-6 py-3 backdrop-blur-sm">
+<div className="max-w-7xl mx-auto flex items-center justify-between px-4 md:px-6 py-3">
 <Link href="#" className="flex items-center gap-2" prefetch={false}>
 <img src="/app.png" alt="Bing logo" className="w-20 h-auto" />
 </Link>
