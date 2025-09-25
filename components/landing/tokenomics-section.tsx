@@ -47,7 +47,7 @@ export default function TokenomicsSection() {
             <div className="col-span-2 border-2 border-black rounded-lg p-4 flex justify-between">
               <span className="font-bold">Token Name</span>
               <span className={`${luckiestGuy.className} font-bold`}>
-                BING
+                BING Bunny
               </span>
             </div>
 
@@ -55,7 +55,7 @@ export default function TokenomicsSection() {
             <div className="border-2 border-black rounded-lg p-4 flex justify-between col-span-1">
               <span className="font-bold">Ticker</span>
               <span className={`${luckiestGuy.className} font-bold text-xl`}>
-                $S00N
+                $BING
               </span>
             </div>
 
@@ -78,7 +78,7 @@ export default function TokenomicsSection() {
             {/* Contract */}
             <div className="col-span-2 border-2 border-black rounded-lg p-4 text-sm">
               <p className="font-bold">Contract Address:</p>
-              <p className="break-all text-gray-700">Soon</p>
+              <p className="break-all text-gray-700">69ncXHPhKxaqfp9MJ5zLMZ8EJx3EmjeNpEy857adpump</p>
             </div>
 
             {/* Buttons */}
